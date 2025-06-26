@@ -41,6 +41,9 @@ cd backFrases
 
 A API estará disponível em http://localhost:8080.
 
+### 2. Frontend
+Abra o arquivo index.html dentro da pasta frontFrases/3356-java-desafio-front/ em um navegador.
+
 📌 Endpoints da API
 - GET /frases: retorna uma frase de um filme
 
