@@ -18,7 +18,7 @@ public class FraseController {
     private FraseService fraseService;
 
     @GetMapping("/frases")
-    public List<FraseDTO> teste() {
-        return fraseService.buscarFrases();
+    public FraseDTO buscarFrase() {
+        return fraseService.buscarFrase();
     }
 }
