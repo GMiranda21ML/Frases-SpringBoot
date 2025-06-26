@@ -20,6 +20,8 @@ public class Frase {
         this.poster = poster;
     }
 
+    public Frase() {}
+
     public Long getId() {
         return id;
     }
