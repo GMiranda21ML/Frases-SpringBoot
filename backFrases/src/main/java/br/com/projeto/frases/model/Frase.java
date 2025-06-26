@@ -8,9 +8,9 @@ public class Frase {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String titulo;
     private String frase;
     private String personagem;
-    private String titulo;
     private String poster;
 
     public Frase(String frase, String personagem, String titulo, String poster) {
